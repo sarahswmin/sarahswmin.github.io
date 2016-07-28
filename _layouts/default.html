@@ -19,9 +19,9 @@
 
     <meta name="description" content="{{ description }}">
 
-    <link rel="shortcut icon" href="{{ site.favicon | prepend: site.baseurl }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ site.favicon}}" type="image/x-icon">
     <link rel="canonical" href="{{ url }}">
-    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl }}" />
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml'}}" />
 
     {% if page.eye_catch %}
     {% assign ogp_image_url = page.eye_catch %}
@@ -45,7 +45,7 @@
     <script src="https://use.fontawesome.com/1f5f360d80.js"></script>
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet">
 
-    <link href="{{ '/assets/css/style.css' | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ '/assets/css/style.css'}}" rel="stylesheet">
 </head>
 <body>
 
@@ -53,11 +53,11 @@
     <div class="inner clearfix">
         {% if site.avatar %}
         <a href="{{ '/' | prepend: site.baseurl }}">
-            <img class="avatar" src="{{ site.avatar | prepend: site.baseurl }}" alt=""/>
+            <img class="avatar" src="{{ site.avatar }}" alt=""/>
         </a>
         {% endif %}
         <h1 class="clearfix">
-            <a class="title {% if site.avatar == null %}slim{% endif %}" href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}</a>
+            <a class="title {% if site.avatar == null %}slim{% endif %}" href="{{ '/'}}">{{ site.title }}</a>
             <br><span class="description">{{ site.description }}</span>
         </h1>
     </div>
@@ -79,7 +79,7 @@
                 {% assign pages = (site.pages | sort: 'order') %}
                 {% for page in pages %}
                 {% if page.title and page.hide != true %}
-                <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                <li><a class="page-link" href="{{ page.url}}">{{ page.title }}</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
@@ -93,7 +93,7 @@
                 <ul>
                     {% assign posts = (site.posts | where: 'hide', null | sort: 'date' | reverse) %}
                     {% for post in posts limit:site.recent_posts_num %}
-                    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                    <li><a href="{{ post.url}}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
@@ -108,15 +108,15 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="{{ '/assets/lib/garand-sticky/jquery.sticky.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/assets/js/script.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/lib/garand-sticky/jquery.sticky.js' }}"></script>
+<script src="{{ '/assets/js/script.js'}}"></script>
 
 {% if page.id %}
-<script src="{{ '/assets/js/header-link.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/header-link.js' }}"></script>
 {% endif %}
 
 {% if page.permalink == '/search/' %}
-<script src="{{ '/assets/js/search.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/search.js'}}"></script>
 {% endif %}
 
 {% include fb-root.html %}
