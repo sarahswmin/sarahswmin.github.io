@@ -23,7 +23,7 @@ share: false
     {% assign month = post.date | date: '%m' %}
     {% assign next_month = post.next.date | date: '%m' %}
     {% if year != next_year or month != next_month %}
-    <li><a href="{{ '/search/?d=' | prepend: site.baseurl }}{{ post.date | date: '%Y-%m' }}">{{ post.date | date: '%Y/%m' }}</a></li>
+    <li><a href="{{ '/search/?d='  }}{{ post.date | date: '%Y-%m' }}">{{ post.date | date: '%Y/%m' }}</a></li>
     {% endif %}
 {% endfor %}
 
@@ -31,4 +31,4 @@ share: false
 </ul>
 {% endif %}
 
-<a class="btn" href="{{ '/archives/all/' | prepend: site.baseurl }}">{{ site.str_show_all_posts }}</a>
+<a class="btn" href="{{ '/archives/all/' }}">{{ site.str_show_all_posts }}</a>
