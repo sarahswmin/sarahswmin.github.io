@@ -7,13 +7,14 @@ layout: default
     <article>
     {% include article-header.html page=post link=true %}
         <section class="post-content">
-            {% assign size = post.content | split: site.excerpt_separator | size %}
+            <!-- {% assign size = post.content | split: site.excerpt_separator | size %}
             {% if size > 1 %}
             {{ post.excerpt }}
             <a class="btn" href="{{ post.url }}">{{ site.str_read_more }}</a>
             {% else %}
             {{ post.content }}
-            {% endif %}
+            {% endif %} -->
+            <a class="btn" href="{{ post.url }}">{{ site.str_read_more }}</a>
         </section>
     </article>
 </div>
