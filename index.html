@@ -26,8 +26,6 @@ layout: default
 {% endif %}
 {% endfor %} -->
 
-<hr id="first-hr" class="with-no-margin"/>
-
     {% for post in paginator.posts %}
     <div id="{{ post.id | replace: '/', '-' }}" style="display: none;">
         <div class="article-wrapper">
