@@ -17,4 +17,4 @@ This blog is for my hobby.
 ### About me  
 My name is Sewon Min, and I am an undergraduate student in Seoul National University.  
 My major is computer science.  
-You can also visit my [cv page](http://shmsw25/github.io).  
+You can also visit my [homepage](http://shmsw25.github.io).  
