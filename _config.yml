@@ -4,7 +4,7 @@
 # url: http://localhost:4000
 # baseurl: ""
 url: http://sarahswmin.github.io
-baseurl: /sarahswmin
+baseurl: ""
 title: SW BLOG
 description: Welcome to my blog!
 avatar: /assets/img/ogp.png
