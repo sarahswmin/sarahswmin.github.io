@@ -2,11 +2,11 @@
 layout: default
 ---
 
-{% for post in paginator.posts %}
+<!--{% for post in paginator.posts %}
 <div class="article-wrapper">
     <article>
     {% include article-header.html page=post link=true %}
-        <!-- <section class="post-content">
+        <section class="post-content">
             {% assign size = post.content | split: site.excerpt_separator | size %}
             {% if size > 1 %}
             {{ post.excerpt }}
@@ -16,7 +16,7 @@ layout: default
             {% endif %}
             <a class="btn" href="{{ post.url }}">{{ site.str_read_more }}</a>
         </section> 
-        <a class="btn" href="{{ post.url }}">{{ site.str_read_more }}</a> -->
+        <a class="btn" href="{{ post.url }}">{{ site.str_read_more }}</a> 
     </article>
 </div>
 <hr class="with-no-margin"/>
@@ -24,6 +24,19 @@ layout: default
 {% if forloop.last != true %}
 <hr/>
 {% endif %}
-{% endfor %}
+{% endfor %} -->
+
+<hr id="first-hr" class="with-no-margin"/>
+
+    {% for post in paginator.posts %}
+    <div id="{{ post.id | replace: '/', '-' }}" style="display: none;">
+        <div class="article-wrapper">
+            <article>
+                {% include article-header.html page=post link=true share=false eye_catch=false %}
+            </article>
+        </div>
+        <hr class="with-no-margin"/>
+    </div>
+    {% endfor %}
 
 {% include paginator.html %}
