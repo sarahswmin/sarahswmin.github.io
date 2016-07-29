@@ -5,24 +5,13 @@ layout: default
 {% for post in paginator.posts %}
 <div class="article-wrapper">
     <article>
-        {% include article-header.html page=post link=true share=false eye_catch=false %}
+        {% include article-header.html page=post link=true %}
     </article>
 </div>
-<!--<hr class="with-no-margin"/>-->
+
 {% if forloop.last != true %}
 <hr/>
 {% endif %}
 {% endfor %}
-
-    <!--{% for post in paginator.posts %}
-    <div id="{{ post.id | replace: '/', '-' }}" style="display: none;">
-        <div class="article-wrapper">
-            <article>
-                {% include article-header.html page=post link=true share=false eye_catch=false %}
-            </article>
-        </div>
-        <hr class="with-no-margin"/>
-    </div>
-    {% endfor %}-->
 
 {% include paginator.html %}
