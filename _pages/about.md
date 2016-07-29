@@ -12,13 +12,13 @@ Enjoy! :smiley:
 
 Hi, My name is Sewon!
 
-Thanks for visiting my blog.
+Thanks for visiting my blog.  
 This blog is both for my hobby.
 
-**Cosmetics** I upload cosmetics I own and write some simple reviews about them.
-**Life** I upload some posts about my days.
+**Cosmetics** I upload cosmetics I own and write some simple reviews about them.  
+**Life** I upload some posts about my days.  
 
-About me
-My name is Sewon Min, and I am an undergraduate student in Seoul National University.
-My major is computer science.
-You can also visit my [cv page](http://shmsw25/github.io).
+About me  
+My name is Sewon Min, and I am an undergraduate student in Seoul National University.  
+My major is computer science.  
+You can also visit my [cv page](http://shmsw25/github.io).  
