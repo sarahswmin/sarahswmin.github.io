@@ -3,11 +3,20 @@ layout: default
 ---
 
 {% for post in paginator.posts %}
-<div class="article-wrapper">
+    <div id="{{ post.id | replace: '/', '-' }}" style="display: none;">
+        <div class="article-wrapper">
+            <article>
+                {% include article-header.html page=post link=true share=false eye_catch=false %}
+            </article>
+        </div>
+        <hr class="with-no-margin"/>
+    </div>
+
+<!--<div class="article-wrapper">
     <article>
         {% include article-header.html page=post link=true share=false eye_catch=false %}
     </article>
-</div>
+</div>-->
 
 <!--{% if forloop.last != true %}
 <hr/>
