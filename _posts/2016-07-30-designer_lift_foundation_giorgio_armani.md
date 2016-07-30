@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 디자이너리프트 파운데이션(Designer Lift Foundation)
+title: 디자이너리프트 파운데이션
 tags: cosmetics 파운데이션 조르지오아르마니 ★★★★★
 eye_catch: Null
 ---
