@@ -8,7 +8,9 @@ eye_catch: Null
 ## 립스틱 노웨어 G (에스쁘아)
 
 ### [Lipstick Nowear G (Espoir)](http://www.espoir.com/product/espoir-colormakeup-lip-lipstick-nowear-G)
+
 ![image]({{site.url}}/../assets/img/nowear-g-img.jpg)
+
 립스틱 노웨어 라인이 최근 굉장히 다양해졌지만 처음 나올 때에는 M, S, G가 있었다. M은 매트, S는 세미매트, G는 글로시의 약자이다. 즉 G는 제일 촉촉하고 글로시하고, 광고에서는 유리알같은 광택이니 뭐니 하는 제품이다.  
 본인은 입술 각질 신경 안쓰고 립스틱을 대충 빠르게 바르기에는 촉촉한 게 무조건 좋다고 생각하는 주의이다.(지금과 같은 여름에도 마찬가지) 매트 립스틱은 도저히 어떻게 발라야할지 모르겠... 따라서 망설임 없이 G를 선택하였다.
 
