@@ -6,15 +6,17 @@ eye_catch: Null
 ---
 
 ## 초코 아이브로우 파우더케익 (스킨푸드)
-### [Choco Eyebrow Powder Cake (Skinfood)]
+### [Choco Eyebrow Powder Cake (Skinfood)](http://www.theskinfood.com/goods/goodsDetail.do?goodsCd=265-1)
 
 이 제품은 엄청 대단하게도 3900원이다. 그러나 퀄리티는 절대 3900원이 아니다.
 색깔은 두 가지. 1호 그레이 카키 블랙, 2호 그레이 브라운이다. 나는 2호를 가지고 있다.
 
 ![image](http://mblogthumb1.phinf.naver.net/20140105_196/gksdnekr_1388881738859RPRy0_JPEG/%BD%BA%C5%B2%C7%AA%B5%E52.jpg?type=w2)
+
 제품 이미지이다.
 
 ![image-color](http://mblogthumb4.phinf.naver.net/20140105_231/gksdnekr_1388881739362MlhGV_JPEG/%BD%BA%C5%B2%C7%AA%B5%E53.jpg?type=w2)
+
 상세한 색상이다. 색감이 똑같이 나온 사진이 거의 없었는데 이게 그나마 비슷한 듯 하다.
 
 ### 이 제품은 엄청난 제품인데...
