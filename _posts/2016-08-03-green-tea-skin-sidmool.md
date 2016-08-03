@@ -6,7 +6,8 @@ eye_catch: Null
 ---
 
 ## 녹차 스킨 (시드물)
-### [Green Tea Skin(Sidmool)](http://sidmool.com/shop/shopdetail.html?branduid=99&search=%25B3%25EC%25C2%25F7%2B%25BD%25BA%25C5%25B2&sort=&xcode=003&mcode=011&scode=&GfDT=bmp%2BW14%3D)
+
+###   [Green Tea Skin(Sidmool)](http://sidmool.com/shop/shopdetail.html?branduid=99&search=%25B3%25EC%25C2%25F7%2B%25BD%25BA%25C5%25B2&sort=&xcode=003&mcode=011&scode=&GfDT=bmp%2BW14%3D)
 
 시드물을 처음 알게 된 것도 녹차 스킨 덕분이었고, 시드물의 다양한 제품들을 사용해 보았지만 역시나 녹차 스킨이 제일 좋다고 생각한다. 가성비 생각하면 두말할 것 없이 최고이고, 굳이 저렴한 가격 때문이 아니더라도 최고이다. 150ml에 4300원짜리 스킨이라니, 정말 이런 스킨은 다시는 없을 것이다.
 
